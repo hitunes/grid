@@ -1,7 +1,7 @@
 .box{
 	background: rgb(128, 124, 124);
 	border-radius: 3px;
-    padding: 1em;
+   padding: 16px;
 	margin: 8px;   
 	text-align: center;
 	min-height: 150px;
@@ -31,14 +31,14 @@
 	min-height: 150px;
 }
 .sb{
-	min-height: 286px;
+	min-height: 336px;
 }
 .nb{
 	min-height: 90px;
 	margin-right: 20px;
 }
 .hsb{
-	min-height: 366px;
+	min-height: 386px;
 }
 .rhsb{
 	float: right;
@@ -51,6 +51,6 @@
 	min-height: 100px;
 }
 .ft{
-	min-height: 30px;
+	min-height: 40px;
 	padding: 0;
 }
