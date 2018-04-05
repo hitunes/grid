@@ -1,0 +1,15 @@
+﻿Debugz Grid is a 12 column grid system from class col-1 to col-12 and special col-d with col-12 been 100% of entire screen resolution, it works with any comibnation of number that sums up to 12. Adding col-x-12 class gives it full mobile fuctionality when screen size gets to 425px, resizing in real-time to fit the available screen size.
+To use: 
+link url inside headtag <debugzgrid.css>
+import the div below in the body tag
+change col- as you wish, knowing col-12 span across the page fully
+put the class col- inside the grid<div>, see example below
+adding col-x-12 class gives it the full mobile functionality
+<div class="container">
+		<div class="grid">
+			<div class="col-12 col-x-12">
+				<div class="box"></div>
+			</div>
+</div>
+</div>
+There are different classes for blocks that take up 1, 2, 3, 4,and up to 12 columns of the grid. Each block uses class names such as col-3 (for a block that stretches over three columns), col-4 (for a block that stretches over 4 columns), col-d (for a block that stretches over 1.5 columns) and so on through to col-12 (for a box that is the full width of the page), . These columns all ﬂoat to the left, you can customize to add margin and padding to either side of column.
